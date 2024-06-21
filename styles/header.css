@@ -1,0 +1,20 @@
+.menu{
+    align-self: center;
+    width: 55%;
+    text-align: right;
+}
+
+.menu ul a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.menu ul{
+    list-style-type: none; /* Remove os marcadores */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+    display: inline; /* Opcional: exibe os itens em linha */
+}

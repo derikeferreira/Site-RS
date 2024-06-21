@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding-top: 130px;
+}
+
+.conteudo-estradas {
+    background-color: #fff;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+.estradas-div {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #333;
+    text-align: center;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.estradas-div ul{
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.estradas-div ul{
+    list-style-type: none;
+    padding-bottom: 30px;
+}
+
+.estradas-div h2{
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+

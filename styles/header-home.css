@@ -1,0 +1,107 @@
+.home-mode {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.center-header{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+
+header{
+    flex-shrink: 0; /* Impede que o cabeçalho e o rodapé encolham */ 
+    position: fixed; 
+    width: 100%;
+    align-self: center;
+    z-index: 1000; 
+    color: #ffffff;
+    background-color: #808080; 
+    height: 120px; 
+    top: 0; 
+}
+
+.logo{
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo h1{
+    font-size: 25px;
+    padding-left: 20px;
+    align-self: center;
+}
+
+.logo img{
+    padding-top: 15px;
+    width: 100px; 
+    height: auto; 
+}
+
+.menu{
+    align-self: center;
+    width: 55%;
+    text-align: right;
+}
+
+.menu ul a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.menu ul{
+    list-style-type: none; /* Remove os marcadores */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+    display: inline; /* Opcional: exibe os itens em linha */
+}
+
+/* COMEÇO DO HOME */
+
+.div-home{
+    margin-top: 160px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.div-home h2{
+    font-size: 1.5rem;
+}
+
+.div-home p{
+    margin: 15px 0;
+    line-height: 1.6;
+    margin-left: 20px;
+}
+
+.home-div-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.home-img{
+    width: 30%; 
+    height: auto; 
+    padding-right: 15px;
+    padding-top: 15px;
+    display: block;
+}
+/* FIM DO HOME */
